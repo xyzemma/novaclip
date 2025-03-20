@@ -1,5 +1,5 @@
 import keyboard
-import pyperclip
+import pyclip
 import pyautogui as pya
 import time
 import base64
@@ -10,5 +10,5 @@ while True:
                 break
         pya.hotkey('ctrl', 'c')
         time.sleep(2)
-        print(pyperclip.paste())
+        print(py.paste())
         break

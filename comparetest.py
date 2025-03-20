@@ -1,6 +1,6 @@
 import keyboard
 import json
-import pyperclip
+import pyclip
 import pyautogui as pya
 import time
 import base64

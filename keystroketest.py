@@ -10,5 +10,5 @@ while True:
                 break
         pya.hotkey('ctrl', 'c')
         time.sleep(2)
-        print(py.paste())
+        print(pyclip.paste())
         break

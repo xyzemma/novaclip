@@ -1,2 +1,8 @@
 import pyclip
-print(pyclip.paste().decode("utf-8"))
+try:
+    pyclip.paste().decode("utf-8")
+except:
+    cliptype = "bin"
+else:
+    cliptype = "txt"
+print(cliptype)

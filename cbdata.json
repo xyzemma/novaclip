@@ -1,8 +1,5 @@
 {
-    "data":[
-        {
-            "type":"img",
-            "content":"google"
-        }
-    ]
+    "type":"bin",
+    "content":"google"
 }
+

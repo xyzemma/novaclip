@@ -1,3 +1,5 @@
 {
-    "type": "bin",
-    "content": 
+    "type": "txt",
+    "content": "\n               pyclip.copy(clipboard)",
+    "contentb64": ""
+}

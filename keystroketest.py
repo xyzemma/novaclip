@@ -2,6 +2,7 @@ import keyboard
 import pyperclip
 import pyautogui as pya
 import time
+import base64
 while True:
     if keyboard.is_pressed("ctrl+alt+c"):
         while True:

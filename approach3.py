@@ -3,11 +3,16 @@ import json
 import time
 import urllib.request
 def clipboard_updated_event(newclip):
+    global cbdata
     global oldclip
-    print(f"Updated: {newclip}")
+    global lastupdate
+    lastupdate = time.time()
+    print(f"Updated: {newclip} at {lastupdate}")
     oldclip = newclip
     return
 oldclip = ""
+cbdata = open("cbdata.json","r+")
+lastupdate = None
 while True:
     try:
         newclip = pyclip.paste()

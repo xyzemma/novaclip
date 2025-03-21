@@ -1,5 +1,5 @@
 {
     "type": "txt",
-    "content": "\n               pyclip.copy(clipboard)",
+    "content": "\n               pyclip.copy(clipbord)",
     "timestamp": 0
 }

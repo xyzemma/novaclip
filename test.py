@@ -3,7 +3,7 @@ string.replace("d","")
 print(string)
 test = urllib.request.urlopen("https://i.postimg.cc/fRB9ZHZ4/test-image-3061864-1280-1648860360.png")
 print(test.read())'''
-import requests
+"""import requests
 import json
 import pyclip
 import urllib.request as ul
@@ -30,4 +30,8 @@ files = {
 }
 
 response = requests.post('https://api.imgbb.com/1/upload', params=params, files=files)
-print(response.json())
+print(response.json())"""
+from pbwrap import Pastebin
+pb = Pastebin("_QSCCGplbifxea1U_TdNQ2pLKfQsGJEd")
+pb.authenticate("rosafy",'8rWR#"G"cm=sG6W')
+print(pb.create_paste("xyz",0,"dsfse","N"))

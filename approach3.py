@@ -7,8 +7,8 @@ from pbwrap import Pastebin
 from cryptography.fernet import Fernet
 
 # Variables
-pb = Pastebin("_QSCCGplbifxea1U_TdNQ2pLKfQsGJEd")
-pb.authenticate("rosafy",'8rWR#"G"cm=sG6W')
+pb = Pastebin("")
+pb.authenticate("rosafy",'')
 cbdata = open("cbdata.json","r+")
 cbdatajson = json.loads(cbdata.read())
 oldclip = cbdatajson["content"]
